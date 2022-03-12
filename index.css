@@ -61,11 +61,17 @@ footer {
 @media screen and (max-width: 1599px) and (min-width: 300px) {
     .container {
         display: grid;
+        max-width:100%;
+        width: 100%;
     }
     .card {
         margin: 0 auto; /* Added */
         margin-bottom: 15px; /* Added */
         box-shadow: 6px 6px 5px;
+    }
+    .card-img-top {
+        width:100%;
+        height:auto;
     }
     footer {
         position: relative;
