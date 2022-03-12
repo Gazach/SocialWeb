@@ -24,3 +24,6 @@ img {
     margin-top: 50px;
     box-shadow: 6px 6px;
 }
+.sukses {
+    display: none;
+}
